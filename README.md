@@ -9,7 +9,7 @@
 ## **Case Study #1: Danny's Diner**
 <img src="https://user-images.githubusercontent.com/98659820/158067474-233d944b-1577-41b0-a563-25a6d4a38a9b.png" width="450" height="450" />
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-1/) and my solution here
+View the case study [here](https://8weeksqlchallenge.com/case-study-1/) and my solution [here](https://github.com/SrimonMahapatra/SQL-Challange/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner)
 ## Buisness Task
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite.
 ## Entity Relationship Diagram
