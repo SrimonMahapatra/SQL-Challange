@@ -1,6 +1,8 @@
 # Case Study #3 - Foodie Fi
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/3.png" width="450" height="450" />
 
+View my solutions here
+
 ## Buisness Task
 
 Danny and his friends launched a new startup Foodie-Fi and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world.
