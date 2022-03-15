@@ -18,5 +18,5 @@ order by customer_id
 
 ***
 
-Click here to solutions for B. Data Analytics Question 
+Click [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%233%20-%20Foodie%20Fi/B.%20Data%20Analytics%20Question.md) to solutions for B. Data Analytics Question 
 
