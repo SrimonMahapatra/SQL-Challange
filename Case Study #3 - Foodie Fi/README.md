@@ -1,8 +1,6 @@
 # Case Study #3 - Foodie Fi
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/3.png" width="450" height="450" />
 
-### View my solutions here
-
 ## Buisness Task
 
 Danny and his friends launched a new startup Foodie-Fi and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world.
@@ -41,13 +39,13 @@ When customers churn — they will keep their access until the end of their curr
 
 ### A. Customer Journey
 
-View my solution here
+View my solution [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%233%20-%20Foodie%20Fi/A.%20Customer's%20Journey.md)
 
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
 
 ### B. Data Analysis Questions
 
-View my solution here
+View my solution [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%233%20-%20Foodie%20Fi/B.%20Data%20Analytics%20Question.md)
 
 1. How many customers has Foodie-Fi ever had?
 2. What is the monthly distribution of trial plan start_date values for our dataset - use the start of the month as the group by value
