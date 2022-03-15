@@ -208,7 +208,7 @@ order by pizza_ordered desc
 ![Q10](https://user-images.githubusercontent.com/98659820/158337630-bb371e33-accd-49d4-ae04-9b54700535b3.png)
 
 ***
-View solution for B. Pizza Runner here
+View solution for B. Pizza Runner and Customer Experience [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%232-%20Pizza%20Runner/B.%20Runner%20%26%20Customer%20Experience.md)
 
 
 
