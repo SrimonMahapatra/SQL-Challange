@@ -32,7 +32,8 @@ select
 			end as extras,
 	order_time
 from customer_orders
-````	
+````
+### Output:
 ![Customers Order Temp](https://user-images.githubusercontent.com/98659820/158333877-42093625-23e6-4363-a7cc-4c631b11b7a8.png)
 
 **🔨 Table: runner_orders**
@@ -84,6 +85,7 @@ ALTER COLUMN pickup_time TYPE date USING pickup_time::date,
 ALTER COLUMN distance TYPE float USING distance::float,
 ALTER COLUMN duration TYPE INTEGER USING duration::INTEGER 
 ````
+### Output:
 ![Runner Order Temp](https://user-images.githubusercontent.com/98659820/158334296-28b778d0-5036-4902-b472-22bb1eeb13ca.png)
 
 
@@ -92,6 +94,7 @@ ALTER COLUMN duration TYPE INTEGER USING duration::INTEGER
 select count(*) as pizza_ordered
 from customer_orders_temp
 ````
+### Output:
 ![Q1](https://user-images.githubusercontent.com/98659820/158334528-160e9a1d-0ce6-463b-b47e-c2153621f8b9.png)
 
 ### 2. How many unique customer orders were made?
@@ -109,6 +112,7 @@ from t1
 select count(distinct order_id) as unique_order_id
 from customer_orders_temp
 ````
+### Output:
 ![Q2](https://user-images.githubusercontent.com/98659820/158334948-0d3d0c4e-21ab-4858-ae89-1ff705c8735b.png)
 
 ### 3. How many successful orders were delivered by each runner?
@@ -120,6 +124,7 @@ where distance <> 0
 group by runner_id
 order by runner_id
 ````
+### Output:
 ![Q3](https://user-images.githubusercontent.com/98659820/158335315-b2fb712a-ebe4-4018-9251-82f7849490c8.png)
 
 ### 4. How many of each type of pizza was delivered?
@@ -135,6 +140,7 @@ from t1
 join pizza_names as pn on t1.pizza_id = pn.pizza_id
 group by pizza_name
 ````
+### Output:
 ![Q4](https://user-images.githubusercontent.com/98659820/158335917-b69b7489-f24a-4943-ac03-524707057403.png)
 
 ### 5. How many Vegetarian and Meatlovers were ordered by each customer?
@@ -146,6 +152,7 @@ join pizza_names pn on co.pizza_id = pn.pizza_id
 group by customer_id, pizza_name
 order by customer_id
 ````
+### Output:
 ![image](https://user-images.githubusercontent.com/98659820/158336124-a6c5a496-da99-4ca9-abd8-3727271ea0f5.png)
 
 ### 6. What was the maximum number of pizzas delivered in a single order?
@@ -159,6 +166,7 @@ group by co.order_id
 order by pizza_per_order desc
 limit 1
 ````
+### Output:
 ![Q6](https://user-images.githubusercontent.com/98659820/158336437-62555107-1a63-478c-991f-a162fc92c4d4.png)
 
 ### 7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
@@ -172,6 +180,7 @@ join runner_orders_temp ro on co.order_id = ro.order_id
 group by customer_id
 order by customer_id
 ````
+### Output:
 ![Q7](https://user-images.githubusercontent.com/98659820/158336859-dc3968b1-4a0b-4d48-88e6-d1926090d397.png)
 
 ### 8. How many pizzas were delivered that had both exclusions and extras?
@@ -185,6 +194,7 @@ group by customer_id
 order by change_done desc
 limit 1
 ````
+### Output:
 ![Q8](https://user-images.githubusercontent.com/98659820/158337147-32f36502-a3e9-4b43-8bc7-6e08d09be294.png)
 
 ### 9. What was the total volume of pizzas ordered for each hour of the day?
@@ -195,6 +205,7 @@ from customer_orders
 group by hour_of_day
 order by Pizza_count desc
 ````
+### Output:
 ![Q9](https://user-images.githubusercontent.com/98659820/158337595-b05006a1-ea48-4130-804c-b7a5dee47bf1.png)
 
 ### 10. What was the volume of orders for each day of the week?
@@ -205,6 +216,7 @@ from  customer_orders
 group by weekdays
 order by pizza_ordered desc
 ````
+### Output:
 ![Q10](https://user-images.githubusercontent.com/98659820/158337630-bb371e33-accd-49d4-ae04-9b54700535b3.png)
 
 ***
