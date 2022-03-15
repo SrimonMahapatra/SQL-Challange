@@ -14,6 +14,7 @@ select registration_week, count(runner_id) as runner_sign_up
 from t1
 group by registration_week
 ````
+### Output:
 ![Q1](https://user-images.githubusercontent.com/98659820/158360852-ea93f5af-b124-4222-9528-477fa03ad0b8.png)
 
 ### 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
@@ -34,6 +35,7 @@ select round(avg(pickup_time_mins),2) as avg_pickup_time
 from t2
 where pickup_time_mins > 1
 ````
+### Output:
 ![Q2](https://user-images.githubusercontent.com/98659820/158361545-90cf9cdd-3fb8-4fd1-9a9e-a05154f600c2.png)
 
 
@@ -55,6 +57,7 @@ select pizza_ordered, avg(prep_time_mins) as avg_prep_time
 from t2
 group by pizza_ordered
 ````
+### Output:
 ![Q3](https://user-images.githubusercontent.com/98659820/158361719-6d3f5285-cc78-46be-8dab-ed5c124ec168.png)
 
 ### 4. 4.What was the average distance travelled for each customer?
@@ -67,6 +70,7 @@ where r.distance <> '0'
 group by c.customer_id
 order by c.customer_id
 ````
+### Output:
 ![Q4](https://user-images.githubusercontent.com/98659820/158362027-5b1c3fd5-8104-404b-9872-1a4e2db0b97f.png)
 
 ### 5. What was the difference between the longest and shortest delivery times for all orders?
@@ -78,7 +82,8 @@ from runner_orders_temp)
 
 select longest_delivery_time - shortest_delivery_time as diff
 from t1 
-```` 
+````
+### Output:
 ![Q5](https://user-images.githubusercontent.com/98659820/158362436-73821030-110c-4d38-a627-f6d250d01e4d.png)
 
 ### 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
@@ -92,6 +97,7 @@ from customer_orders_temp c
 join runner_orders_temp r on c.order_id = r.order_id
 where distance <> '0'
 ````
+### Output:
 ![Q6](https://user-images.githubusercontent.com/98659820/158366159-869ccb20-1fad-4ae9-983e-2aefc3b79949.png)
 
 ### 7. What is the successful delivery percentage for each runner?
@@ -111,6 +117,7 @@ select t1.runner_id, t2.total_successful_deliveries,t1.successful_deliveries,
 round(t1.successful_deliveries/t2.total_successful_deliveries * 100, 2) as Sucess_perct
 from t1, t2
 ````
+### Output:
 ![Q7](https://user-images.githubusercontent.com/98659820/158366484-11182dbf-8d96-4ac0-a8d3-29df295b38ef.png)
 
 
