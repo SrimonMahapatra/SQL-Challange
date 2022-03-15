@@ -1,6 +1,8 @@
 ## **Case Study #2: Pizza Runner**
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" width="450" height="450" />
 
+### View my Case Study here and solutions here
+
 ## Buisness Task
 Danny is expanding his new Pizza Empire and at the same time, he wants to Uberize it, so Pizza Runner was launched!
 
