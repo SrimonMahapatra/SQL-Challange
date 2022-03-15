@@ -16,7 +16,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 <details>
   <summary>Click to expand!</summary>
 
-### View my solutions here 
+### View my solutions [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%232-%20Pizza%20Runner/A.%20Pizza%20Metrices.md)
 
 ## A. Pizza Metrices
 1. How many pizzas were ordered?
@@ -32,7 +32,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
   
 ## B. Runner and Customer Experience
   
-### View my solutions here   
+### View my solutions [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%232-%20Pizza%20Runner/B.%20Runner%20%26%20Customer%20Experience.md)   
   
 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
