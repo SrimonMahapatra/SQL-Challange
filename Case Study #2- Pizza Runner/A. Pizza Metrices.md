@@ -207,6 +207,9 @@ order by pizza_ordered desc
 ````
 ![Q10](https://user-images.githubusercontent.com/98659820/158337630-bb371e33-accd-49d4-ae04-9b54700535b3.png)
 
+***
+View solution for B. Pizza Runner here
+
 
 
 
