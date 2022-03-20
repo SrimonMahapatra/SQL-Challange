@@ -51,4 +51,32 @@ _`*` represent new columns_
 
 ### Solution:
 
+```` sql
+drop table clean_weekly_sales
+drop table if exists clean_weekly_sales;
+create temp table clean_weekly_sales as 
+(select 
+to_date (week_date, 'DD/MM/YY') as week_date, 
+extract (week from to_date (week_date, 'DD/MM/YY')) as week_number,
+extract (month from to_date (week_date, 'DD/MM/YY')) as month,
+extract (year from to_date (week_date, 'DD/MM/YY')) as calender_year,
+region, platform,segment,
+case 
+when right(segment, 1) = '1' then 'Young Adults'
+when right(segment, 2) = '2' then 'Middle Aged'
+when right(segment,1) in ('3', '4') then 'Retirees'
+else 'Unknown' end as age_band,
+case
+when left(segment, 1) = 'C' then 'couples'
+when left(segment, 1) = 'F' then 'Families'
+else 'Unknown' end as demographic, 
+transactions,
+round((sales::numeric/transactions),2) as avg_transaction,
+sales
+from data_mart.weekly_sales)
+````
+<img width="1148" alt="image" src="https://user-images.githubusercontent.com/81607668/131474035-528e0af6-d848-427b-bbd9-73956a775f86.png">
+
+
+
 
