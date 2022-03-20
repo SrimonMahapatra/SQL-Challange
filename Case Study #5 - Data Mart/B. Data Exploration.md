@@ -33,6 +33,8 @@ group by calender_year
 ````
 ![A Q3](https://user-images.githubusercontent.com/98659820/159184214-f649a9fb-6e3c-45a3-bac7-9abc8dba1da9.PNG)
 
+view solution for c. Before & After Analysis
+
 
 **4. What is the total sales for each region for each month?**
 
