@@ -56,4 +56,6 @@ This case study is all about calculating metrics, growth and helping the busines
 4. What is the closing balance for each customer at the end of the month?
 5. What is the percentage of customers who increase their closing balance by more than 5%?
   
+   view Solutions [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Transaction.md) 
+  
 ***
