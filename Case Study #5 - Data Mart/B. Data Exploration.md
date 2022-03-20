@@ -33,8 +33,6 @@ group by calender_year
 ````
 ![A Q3](https://user-images.githubusercontent.com/98659820/159184214-f649a9fb-6e3c-45a3-bac7-9abc8dba1da9.PNG)
 
-view solution for c. Before & After Analysis
-
 
 **4. What is the total sales for each region for each month?**
 
@@ -126,4 +124,7 @@ from clean_weekly_sales
 group by calender_year, platform
 ````
 ![A Q9](https://user-images.githubusercontent.com/98659820/159184252-103d02a3-d43a-4ebe-b2c0-726b1bd24c50.PNG)
+
+
+view solution for c. Before & After Analysis
 
