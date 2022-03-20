@@ -61,5 +61,5 @@ from t2
 
 ***
 
-click here for B. Customer Transactions
+click [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Nodes%20Exploration.md) for B. Customer Transactions
 
