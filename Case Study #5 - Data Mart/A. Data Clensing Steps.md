@@ -77,6 +77,7 @@ from data_mart.weekly_sales)
 ````
 <img width="1148" alt="image" src="https://user-images.githubusercontent.com/81607668/131474035-528e0af6-d848-427b-bbd9-73956a775f86.png">
 
+click here for B. Data Exploration
 
 
 
