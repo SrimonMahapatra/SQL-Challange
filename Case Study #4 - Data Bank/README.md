@@ -45,6 +45,8 @@ This case study is all about calculating metrics, growth and helping the busines
 3. How many customers are allocated to each region?
 4. How many days on average are customers reallocated to a different node?
 5. What is the median, 80th and 95th percentile for this same reallocation days metric for each region?
+
+   view Solutions [here](https://github.com/SrimonMahapatra/SQL-Challange/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Nodes%20Exploration.md)  
   
 ### B. Customer Transactions  
 
