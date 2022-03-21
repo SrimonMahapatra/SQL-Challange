@@ -126,5 +126,5 @@ group by calender_year, platform
 ![A Q9](https://user-images.githubusercontent.com/98659820/159184252-103d02a3-d43a-4ebe-b2c0-726b1bd24c50.PNG)
 
 
-view solution for c. Before & After Analysis
+view solution for C. Before & After Analysis
 
